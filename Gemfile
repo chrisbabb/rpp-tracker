@@ -3,6 +3,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.4"
 
+gem 'faker'
+
+# Rack middleware. Used specifically for parsing the request body into params.
+# https://github.com/rack/rack-contrib
+gem "rack-contrib", "~> 2.3"
+
+# More Rack middleware! Used to handle CORS requests
+# https://github.com/cyu/rack-cors
+gem "rack-cors", "~> 1.1"
+
+gem "active_model_serializers", "~> 0.10.12"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 

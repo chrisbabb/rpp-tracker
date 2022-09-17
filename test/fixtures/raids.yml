@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  points: 1
+  start_time: 1
+  end_time: 1
+  bonus: 1
+  event: one
+  player: one
+
+two:
+  points: 1
+  start_time: 1
+  end_time: 1
+  bonus: 1
+  event: two
+  player: two
